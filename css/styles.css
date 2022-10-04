@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.column,
+.row {
+    flex: 1 0 auto;
+    background-color: white;
+}
+
+.column:hover {
+    background-color: black;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    border: 1px solid black;
+    border-top-width: 0px;
+    border-left-width: 0px;
+}
