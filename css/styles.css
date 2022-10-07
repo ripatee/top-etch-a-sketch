@@ -6,6 +6,14 @@ body {
     align-items: center;
 }
 
+.edge-container {
+    background-color: #fe0000;
+    padding:80px 100px;
+    padding-bottom: 150px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
 .container {
     display: flex;
     flex: 0 0 auto;
